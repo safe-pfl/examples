@@ -8,4 +8,4 @@ Here are examples of published packages for SAFE-PFL.
 
 For
 
-- [distance calculator](https://github.com/safe-pfl/distances) examples refer to [distance](https://github.com/safe-pfl/examples/distance) directory.
+- [distance calculator](https://github.com/safe-pfl/distances) examples refer to [distance](./distance) directory.
