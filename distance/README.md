@@ -46,11 +46,10 @@ cd distance # Go to the distance directory
 python main.py --model resnet
 ```
 
-the `--model` valid parameters are as above `alexnet`, `cnn`, `googlenet`, `resnet` and `vgg`.
+The `--model` valid parameters are as above `alexnet`, `cnn`, `googlenet`, `resnet` and `vgg`.
 
-the output of the `distance/main.py` will store in `distance/results` folder which have two sub-folders
+the output of the `distance/main.py` will store in `distance/results` folder which include the result of distance measurement in respective model type folder.
 
-- latex
-- plot
-
-Each of those folders have sub-folder respective to the parameters given as the script input.
+> [!NOTE]
+>
+> Other input parameters are `--sensitivity_parameter` which is the sensitivity parameter for distance calculation and has value of 0.01 by default. The `--model_path_prefix` is the location of your `models` folder in your local system, by default has the value of `./models` and it could be any where in your system. The `--precision` is the distance measurement precision which is 5 digits after floating point by default.

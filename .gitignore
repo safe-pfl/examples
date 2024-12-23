@@ -170,8 +170,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-distance/models/cnn/*
-distance/models/resnet/*
-distance/models/vgg/*
-distance/models/alexnet/*
-distance/models/googlenet/*
+distance/*/cnn/*
+distance/*/resnet/*
+distance/*/vgg/*
+distance/*/alexnet/*
+distance/*/googlenet/*
