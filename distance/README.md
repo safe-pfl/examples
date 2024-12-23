@@ -52,4 +52,4 @@ the output of the `distance/main.py` will store in `distance/results` folder whi
 
 > [!NOTE]
 >
-> Other input parameters are `--sensitivity_parameter` which is the sensitivity parameter for distance calculation and has value of 0.01 by default. The `--model_path_prefix` is the location of your `models` folder in your local system, by default has the value of `./models` and it could be any where in your system. The `--precision` is the distance measurement precision which is 5 digits after floating point by default.
+> Other input parameters are `--sensitivity_parameter` which is the sensitivity parameter for distance calculation and has value of 0.1 (10% of the important model weights) by default. The `--model_path_prefix` is the location of your `models` folder in your local system, by default has the value of `./models` and it could be any where in your system. The `--precision` is the distance measurement precision which is 5 digits after floating point by default.

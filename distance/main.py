@@ -8,15 +8,16 @@ from safe_pfl_distance.nets.google_net import Net
 from safe_pfl_distance.nets.alex_net import Net
 from safe_pfl_distance.nets.alex_net import Net
 
+
 def main(args):
     print(f"Running SAFE-PFL v{__version__} distance example")
-    
+
     calculator = ModelDistancesCalculator(
         args.model_type,
         args.sensitivity_parameter,
         args.model_path_prefix,
-        args.precision
-        )
+        args.precision,
+    )
 
     calculator.extract_model_weights()
 
@@ -25,7 +26,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Calculate model distances.")
-    
+
     parser.add_argument(
         "--model_type",
         type=str,
@@ -36,9 +37,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--sensitivity_parameter",
         type=float,
-        default=0.01,
+        default=0.1,
         help="Sensitivity parameter for distance calculation.",
-    )    
+    )
     parser.add_argument(
         "--model_path_prefix",
         type=str,
