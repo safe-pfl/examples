@@ -175,3 +175,6 @@ distance/*/resnet/*
 distance/*/vgg/*
 distance/*/alexnet/*
 distance/*/googlenet/*
+
+plotter/*/*.log
+plotter/*/*.png

@@ -9,3 +9,4 @@ Here are examples of published packages for SAFE-PFL.
 For
 
 - [distance calculator](https://github.com/safe-pfl/distances) examples refer to [distance](./distance) directory.
+- [plotter](https://github.com/safe-pfl/plotter) examples refer to [plotter](./plotter) directory.
