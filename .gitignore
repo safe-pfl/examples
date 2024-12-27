@@ -178,3 +178,5 @@ distance/*/googlenet/*
 
 plotter/*/*.log
 plotter/*/*.png
+
+logs/
