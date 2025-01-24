@@ -175,6 +175,7 @@ distance/*/resnet/*
 distance/*/vgg/*
 distance/*/alexnet/*
 distance/*/googlenet/*
+distance/results/*
 
 plotter/*/*.log
 plotter/*/*.png
